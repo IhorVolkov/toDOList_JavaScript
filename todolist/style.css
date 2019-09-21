@@ -35,8 +35,12 @@ span:after {
   width: 64px;
   height: 64px;
   background: url('../todolist/img/delete.png') no-repeat;
+  position:absolute;
+  top:-15px;
+  right:0;
 }
 span {
+  position:relative;
   float: right;
 }
 #taskList {
@@ -44,6 +48,7 @@ span {
   font-size: 24px;
   color: lightseagreen;
   margin-top: 5px;
+  margin-top:15px;
 }
 
 legend {
